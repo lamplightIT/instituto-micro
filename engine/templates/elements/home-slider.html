@@ -1,0 +1,26 @@
+<script type = "text/javascript">
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 6000
+  })
+});
+</script>
+<div id="myCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    {% for item in carousel_items %}
+        {% if forloop.counter == 1 %}
+            <div class="active item">
+        {% else %}
+            <div class = "item">
+        {% endif %}
+              <img src = "https://institutomicro.s3.amazonaws.com/{{item.img}}" />
+                <div class = "caption">
+                  {{item.caption}}
+                </div>
+            </div>
+    {% endfor %}
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>

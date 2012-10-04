@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+			<div class = "contact">
+	<div class = "wrap">
+		<div class = "top">
+			<div class = "page-title">
+				<h3>Contato</h3>
+			</div>
+		</div>
+		<div class = "col1">
+			<h4>Mande sua mensagem através do formulário abaixo.</h4>
+			<form method = "post" action = "/contato/">
+				{% csrf_token %}
+				<label for = "name">Nome</label>
+					<input type = "text" name = "full_name" value = "{% if form.full_name.value %}{{form.full_name.value}}{% endif %}" id = "full_name" {% if form.full_name.errors %}class = "input-error"{% endif %}>
+				<label for = "email">E-mail</label>
+					<input type = "text" name = "email" value = "{% if form.email.value %}{{form.email.value}}{% endif %}" id = "email" {% if form.email.errors %}class = "input-error"{% endif %}>
+				<label for = "subject">Assunto</label>
+					<input type = "text" name = "subject" value = "{% if form.subject.value %}{{form.subject.value}}{% endif %}" id = "subject" {% if form.subject.errors %}class = "input-error"{% endif %}>
+				<label for = "msg">Mensagem</label>
+					<textarea name = "msg" id = "msg" {% if form.msg.errors %}class = "input-error"{% endif %}>{% if form.msg.value %}{{form.msg.value}}{% endif %}</textarea>
+
+				<input type = "submit" class = "btn primary" value = "Enviar">
+			</form>
+		</div>
+		<div class = "col2">
+			<h4>Aonde estamos</h4>
+			<div class = "des">
+				Av. Farrapos, 3685 - 4° andar <br />
+				Bairro São Geraldo <br />
+				CEP: 90220-003 <br />
+				(51) 3362.5376 <br />
+				Porto Alegre - Rio Grande do Sul - Brasil
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

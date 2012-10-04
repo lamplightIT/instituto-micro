@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+<script type = "text/javascript">
+	$(document).ready(function() {
+		$('#myTab a:first').tab('show'); // Select first tab
+	});
+</script>
+<div class = "home">
+	<div class = "col1">
+		<div class = "flags">
+			<div class = "item">
+				<div id = "en"></div>
+			</div>
+			<div class = "item">
+				<div id = "es"></div>
+			</div>
+			<div class = "item">
+				<div id = "br"></div>
+			</div>
+		</div>
+		<div class = "welcome">
+			<div class = "bg"></div>
+			<div class = "text">
+				<div class = "line-1">
+					Bem vindo ao
+				</div>
+				<div class = "line-2">
+					Instituto de Microscopia Operatória.
+				</div>
+			</div>
+		</div>
+		<div class = "about">
+			<div class = "text">
+				Um espaço único, para o treinamento clínico e cirúrgico.
+			</div>
+			<div class = "bar-about"></div>
+		</div>
+	</div>
+	<div class = "col2">
+		<div class = "slider-wrap">
+			{% include 'elements/home-slider.html' %}
+		</div>
+	</div>
+	<div class = "col3">
+		<div class = "tabs">
+		<ul id="myTab" class="nav nav-tabs">
+      <li><a href="#cursos" data-toggle="tab">Cursos</a></li>
+      <li><a href="#areas-treinamento" data-toggle="tab">Áreas de Treinamento</a></li>
+      <li><a href="#inscricoes" data-toggle="tab">Inscrições</a></li>
+    </ul>
+	    <div id="myTabContent" class="tab-content">
+	      <div class="tab-pane fade" id="cursos">
+	        <p>
+	        	<h3>CURSOS</h3>
+	        	<ul>
+	        		{% for course in courses %}
+	        		<li><a href="#cursoCredenciamento{{forloop.counter}}" role="button" data-toggle="modal">{{course.des}}</a></li>
+	        		<!-- modal -->
+							<div class="modal hide fade" id="cursoCredenciamento{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-header">
+							    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							    <h3 id="myModalLabel">{{course.des}}</h3>
+							  </div>
+							  <div class="modal-body">
+							    <img src = "https://institutomicro.s3.amazonaws.com/{{course.img}}" />
+							  </div>
+							  <div class="modal-footer">
+							    <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+							  </div>
+							</div>
+							<!-- /modal -->
+	        		{% endfor %}
+	        	</ul>
+	        </p>
+	      </div>
+	      <div class="tab-pane fade" id="areas-treinamento">
+	        <p>
+	        	<h3>ÁREAS DE TREINAMENTO</h3>
+	        	<ul>
+	        		{% for area in training_areas %}
+        			<li>
+        				<a href="#area{{area.des}}" role="button" data-toggle="modal">
+        					{{area.des}}
+        				</a>
+        			</li>
+        			<!-- modal -->
+							<div class="modal hide fade" id="area{{area.des}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-header">
+							    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							    <h3 id="myModalLabel">{{area.des}}</h3>
+							  </div>
+							  <div class="modal-body">
+							    <p>{{area.content}}</p>
+							  </div>
+							  <div class="modal-footer">
+							    <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+							  </div>
+							</div>
+							<!-- /modal -->
+        			{% endfor %}
+	        	</ul>
+	        </p>
+	      </div>
+	      <div class="tab-pane fade" id="inscricoes">
+	        	<h3>INSCRIÇÕES</h3>
+						<p>O Instituto de Microscopia Operatória vai facilitar o processo de inscrições nos seus cursos oferecendo recursos para que todos os profissionais possam se inscrever diretemente pelo site. <br /> Para maiores informações favor entrar em contato com o Sr. Ricardo pelo fone (51) 3362.5376 ou pelo email cursos@institutomicro.com.br</p>
+	      </div>
+	    </div>
+  	</div>
+	</div>
+	<div class = "col4">
+		<div class = "video">
+			<object type="application/x-shockwave-flash" id = "youtube-video" style="width:330px; height:200px;" data="http://www.youtube.com/v/teIdLYovg8I?rel=0&amp;showsearch=0&amp;version=3&amp;modestbranding=1">
+<param name="movie" value="http://www.youtube.com/v/teIdLYovg8I?rel=0&amp;showsearch=0&amp;version=3&amp;modestbranding=1" />
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+</object>
+		</div>
+	</div>
+	<div class = "col5">
+		<div class = "localization">
+			<div class = "top">
+				<p>COMO CHEGAR NO INSTITUTO</p>
+			</div>
+			<div class = "map">
+				<iframe width="469" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Avenida+Farrapos,+3685,+Porto+Alegre+-+Rio+Grande+do+Sul,+Brasil&amp;aq=0&amp;oq=Av.+Farrapos,+3685&amp;sll=37.0625,-95.677068&amp;sspn=40.188298,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Farrapos,+3685+-+Navegantes,+Porto+Alegre+-+Rio+Grande+do+Sul,+90220-003,+Brazil&amp;t=m&amp;z=14&amp;ll=-30.000627,-51.198575&amp;output=embed"></iframe>
+			</div>
+			<div class = "address">
+				<p class = "city">PORTO ALEGRE - BRASIL</p>
+				<p class = "street">Av. Farrapos, 3685<br />
+					 CEP 90220-007</p>
+			</div>
+		</div>
+	</div>
+	<div class = "col6">
+		<div class = "news">
+			<div class = "title">
+				ÚLTIMAS NOTÍCIAS
+			</div>
+			{% for notice in news %}
+					<div class = "not">
+						<div class = "title">
+							<a href="#news{{forloop.counter}}" role="button" data-toggle="modal">{{notice.des}}</a>
+						</div>
+						<div class = "text">
+							{{ notice.content|linebreaks|safe|truncatewords:15 }}
+						</div>
+					</div>
+					<!-- notice -->
+					<div class="modal hide fade" id="news{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-header">
+					    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					    <h3 id="myModalLabel">{{notice.des}}</h3>
+					  </div>
+					  <div class="modal-body">
+					    <p>{{notice.content}}</p>
+					  </div>
+					  <div class="modal-footer">
+					    <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+					  </div>
+					</div>
+					<!-- /notice -->
+			{% endfor %}
+		</div>
+		<div class = "icons">
+			<div class = "facebook">
+				<a href = "http://www.facebook.com/" target = "_BLANK"><img src = "{% static "img/facebook_icon.png" %}" /></a>
+			</div>
+			<div class = "youtube">
+				<a href = "http://www.youtube.com/" target = "_BLANK"><img src = "{% static "img/youtube_icon.png" %}" /></a>
+			</div>
+		</div>
+		<div class = "contact">
+			<div class = "line-1">
+				<p>Entre em contato conosco</p>
+			</div>
+			<div class = "line-2">
+				<p class = "call">ligue</p>
+				<p class = "number">+55 (51) 3362.5376</p>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

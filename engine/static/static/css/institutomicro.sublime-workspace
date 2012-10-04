@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"br",
+				"br	Tag"
+			],
+			[
+				"a",
+				"app"
+			],
+			[
+				"new_",
+				"new_cnh_maturity"
+			],
+			[
+				"curre",
+				"current_address_customer"
+			],
+			[
+				"current_",
+				"current_address_customer"
+			],
+			[
+				"Cliente",
+				"ClienteResponsavel"
+			],
+			[
+				"id_typ",
+				"id_type_adress"
+			],
+			[
+				"type",
+				"type_adresses"
+			],
+			[
+				"type_add",
+				"type_address"
+			],
+			[
+				"Ende",
+				"Endereco"
+			],
+			[
+				"cnpj",
+				"cnpj_value"
+			],
+			[
+				"C",
+				"Cidade"
+			],
+			[
+				"end_",
+				"end_count_aux"
+			],
+			[
+				"type_ad",
+				"type_addresses"
+			],
+			[
+				"Estado",
+				"Estado"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "styles.less",
+			"settings":
+			{
+				"buffer_size": 13715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/webroot/js/default.js",
+			"settings":
+			{
+				"buffer_size": 1452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Layouts/default.ctp",
+			"settings":
+			{
+				"buffer_size": 2589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Model/Inscricao.php",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Servicos/index.ctp",
+			"settings":
+			{
+				"buffer_size": 1695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 11506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Pages/home.ctp",
+			"settings":
+			{
+				"buffer_size": 5414,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Contatos/index.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Model/Contato.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Model/Servico.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Controller/ServicosController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/webroot/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Inscricoes/index.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Controller/ContatosController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Controller/InscricoesController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Cursos/index.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/top-menu.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Pages/sobre-o-instituto.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Model/Curso.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/news/notice2.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/news/notice1.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Pages/home.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/news/notice1",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/news/new1",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/modal3.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/modal1.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/modal2.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/webroot/js/bootstrap.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Elements/home-slider.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/webroot/js/jquery-1.8.0.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Config/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/highcharts/highcharts.src.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/highcharts/highcharts.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Funcionarios/adiciona.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Controller/FuncionariosController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Funcionarios/gerencia.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/control-employees.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Controller/ClientesController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Funcionarios/edita.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Funcionario.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Controller/EnderecosController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/add-employees.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/datepicker/date_pt-br.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/css/datepicker.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/datepicker/datepicker.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/add-customers.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/datepicker/date.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Helper/BootstrapPaginatorHelper.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Config/core.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Endereco.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/global.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Estado.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Clientes/adiciona.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Elements/top-menu.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Layouts/default.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/edit-customers.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Clientes/edita.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Controller/AppController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/less/variables.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/less/responsive-1200px-min.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Cliente.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Enderecos/adiciona.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Clientes/gerencia.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/ClienteResponsavel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/EnderecoCliente.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Pais.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/Cidade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Elements/pagination.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Helper/PaginatorHelper.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/lib/Cake/View/Helper/PaginatorHelper.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/lib/Cake/View/Elements/pagination.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/add-customers_old.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fb-snake/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp/app/Controller/AppController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Config/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Controller/UsersController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/Model/User.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Users/painel.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp/app/View/Users/painel.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Users/login.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/add-addresses.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/system-functions/add-addresses",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp/app/View/Elements/top_menu.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/js/jquery-1.8.0.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/css/styles.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp/app/View/Layouts/default.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/webroot/less/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo/app/View/Pages/home.ctp",
+		"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp/app/Config/core.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Pages/sobre-o-instituto",
+		"/Users/fernandoboose/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fernandoboose/institutomicro_site/institutomicro_site/__init__.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/Beachchopp-novo"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"footer",
+			";}",
+			"clear",
+			"43%",
+			"center",
+			"Helvetica-Light",
+			"helvetica",
+			"left",
+			"fade",
+			"10px",
+			"menu",
+			"gradientbg",
+			"@darkerColor",
+			"margin-bottom",
+			"tab-content",
+			"caption",
+			"slide",
+			"					.setGradientBG(#9ec4d8, #64a6c9);\n					.setSize(auto, 90px);\n					font-size: 10pt;",
+			"Highcharts.com",
+			"dth",
+			"'])));\n",
+			"']);",
+			"								\n",
+			"dp-calendar",
+			"layout",
+			"?>\n",
+			"																		'value' => ''\n															)); ?>",
+			"<?php echo $this->Form->input('dth_admission', array(\n																								'type' => 'text',\n																								'label' => 'Data de admissão',\n																								'value' => ''\n															)); ?>",
+			"#08C",
+			"countdown",
+			"setformbtn",
+			"formbtn",
+			"primary",
+			"echo",
+			"icon-user",
+			"controlCustom",
+			"control",
+			"elements",
+			"'],\n",
+			"attr('value'",
+			"attr('value)",
+			"aux_val",
+			"btn-danger",
+			"btn",
+			".btn",
+			"BootstrapPaginator",
+			"BoostrapPaginator",
+			"link",
+			"href",
+			"current",
+			")):",
+			"endereço",
+			"debug",
+			"á",
+			"add-responsible",
+			"neigh",
+			"name",
+			"text",
+			"			$('#",
+			"alert",
+			"val",
+			"addField",
+			"addfield",
+			"		\n",
+			"));\n",
+			"));",
+			"\">\n",
+			"cliente",
+			"username",
+			"container",
+			" }",
+			"ul",
+			"li"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "styles.less",
+					"settings":
+					{
+						"buffer_size": 13715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/webroot/js/default.js",
+					"settings":
+					{
+						"buffer_size": 1452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Layouts/default.ctp",
+					"settings":
+					{
+						"buffer_size": 2589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1375,
+								954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/Model/Inscricao.php",
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Servicos/index.ctp",
+					"settings":
+					{
+						"buffer_size": 1695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1086,
+								1086
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 11506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/InstitutoMicro/app/View/Pages/home.ctp",
+					"settings":
+					{
+						"buffer_size": 5414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2560,
+								2560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 47.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}

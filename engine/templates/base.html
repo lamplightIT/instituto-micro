@@ -1,0 +1,99 @@
+{% load url from future %}
+{% load staticfiles %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<!-- This site was developed by Fernando Boose at Lamplight IT. -->
+<!-- The year is 2012 and we are proud to be PYTHON POWERED. -->
+<!-- Built using Mac OS X. It's not my fault if your lame Windows doesn't work. -->
+<!-- Layout by Humberto Mogetti (http://hm.art.br/) -->
+<!-- http://www.lamplight.com.br -->
+<!-- http://www.github.com/lamplightIT -->
+<!-- http://www.github.com/fernandoboose -->
+
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
+    <head>
+    	<meta name="google-site-verification" content="e7qcOJ7CV-MZEhhMGyIi39EqkqMyYvtIZ45nLaSOJfo" />
+<title>Instituto de Microscopia Operatória</title>
+<link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.min.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}">
+
+<script type = "text/javascript" src = "{% static "js/jquery-1.8.0.min.js" %}"></script>
+<script type = "text/javascript" src = "{% static "js/less-1.3.0.min.js" %}"></script>
+<script type = "text/javascript" src = "{% static "js/bootstrap.js" %}"></script>
+<script type = "text/javascript" src = "{% static "js/modernizr.custom.28542.js" %}"></script>
+<script type = "text/javascript" src = "{% static "js/default.js" %}"></script>
+{% block extrahead %}{% endblock %}
+</head>
+<body>
+	<div class = "todo">
+		<div class = "center">
+			<div class = "header">
+				<div class = "top">
+					<div class = "line left"></div>
+					<div class = "logo">
+						<div class = "img"></div>
+						<div class = "title">
+							<span class = "first-line">
+								Instituto de
+							</span>
+							<br />
+							<span class = "second-line">
+								Microscopia Operatória
+							</span>
+						</div>
+					</div>
+					<div class = "line right"></div>
+				</div>
+				<div class = "bottom">
+					<div class = "menu">
+						{% include 'elements/top-menu.html' %}
+					</div>
+				</div>
+			</div>
+			<div class = "content">
+				{% if form.non_field_errors %}
+    		{% for error in form.non_field_errors %}
+        		<div class="alert alert-error">
+  						<button type="button" class="close" data-dismiss="alert">×</button>
+  						<h4>Erro!</h4> <p class = "error-msg">{{ error }}</p>
+						</div>
+    		{% endfor %}
+    {% elif form.errors %}
+    				<div class="alert alert-error">
+  						<button type="button" class="close" data-dismiss="alert">×</button>
+  						<h4>Erro!</h4> <p class = "error-msg">Por favor, revise os campos destacados em vermelho.</p>
+						</div>
+		{% endif %}
+		{% if messages %}
+		    {% for message in messages %}
+		    <div class="alert alert-{% if message.tags %}{{ message.tags }}{% endif %}">
+		    	<button type="button" class="close" data-dismiss="alert">×</button>
+		    	<h4>{% if 'error' in message.tags %}Erro!{% elif 'success' in message.tags %}Sucesso!{% endif %}</h4> <p class = "success-msg">{{ message }}</p>
+		    </div>
+		    {% endfor %}
+		{% endif %}
+				{% block content %}
+				{% endblock %}
+			</div>
+		</div>
+		<div class = "clear"></div>
+		<div class = "footer">
+			<div class = "wrap">
+				<div class = "left">
+					<div class = "dev-logo"><img src = {% static "img/lamplight_logo.png" %} width = "70px" /></div>
+						<p>Desenvolvido por <a href = "http://www.lamplight.com.br/" target = "_BLANK">Lamplight IT</a></p>
+				</div>
+				<div class = "right">
+					<div class = "copyright">
+						<p>© Copyright 2012 - Instituto de Microscopia Operatória <br />
+							 Todos os direitos reservados. </p>
+					</div>
+				</div>
+				<div class = "clear"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

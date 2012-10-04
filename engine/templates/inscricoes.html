@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+		<script type = "text/javascript">
+			//gambiarra pro formulario aparecer inteiro, as vezes nao aparecia se a pagina anterior nao tinha sido carregada totalmente
+			$(document).ready(function() {
+				setTimeout( function(){
+      		$('label').css('float', 'left');
+    		},90);
+			});
+		</script>
+		<div class = "subscriptions">
+			<div class = "top">
+				<div class = "page-title">
+					<h3>Inscrições</h3>
+					<h4>Cadastre-se e entraremos em contato.</h4>
+				</div>
+			</div>
+			<div class = "form-wrap">
+				<form method = "post" action = "/inscricoes/">
+					{% csrf_token %}
+					<label for "first_name">Nome</label>
+						<input type = "text" name = "first_name" value = "{% if form.first_name.value %}{{form.first_name.value}}{% endif %}" id = "first_name" {% if form.first_name.errors %}class = "input-error"{% endif %} />
+					<label for "last_name">Sobrenome</label>
+						<input type = "text" name = "last_name" value = "{% if form.last_name.value %}{{form.last_name.value}}{% endif %}" id = "last_name" {% if form.last_name.errors %}class = "input-error"{% endif %} />
+					<label for "username">Nome de Usuário</label>
+						<input type = "text" name = "username" value = "{% if form.username.value %}{{form.username.value}}{% endif %}" id = "username" {% if form.username.errors %}class = "input-error"{% endif %} />
+					<label for "password">Senha</label>
+						<input type = "password" name = "password" value = "{% if form.password.value %}{{form.password.value}}{% endif %}" id = "password" {% if form.password.errors %}class = "input-error"{% endif %} />
+					<label for "password2">Confirme sua Senha</label>
+						<input type = "password" name = "password2" value = "{% if form.password2.value %}{{form.password2.value}}{% endif %}" id = "password2" {% if form.password2.errors %}class = "input-error"{% endif %} />
+					<label for "email">Endereço de e-mail</label>
+						<input type = "text" name = "email" value = "{% if form.email.value %}{{form.email.value}}{% endif %}" id = "email" {% if form.email.errors %}class = "input-error"{% endif %} />
+					<label for "email2">Confirme seu endereço de e-mail</label>
+						<input type = "text" name = "email2" value = "{% if form.email2.value %}{{form.email2.value}}{% endif %}" id = "email2" {% if form.email2.errors %}class = "input-error"{% endif %} />
+
+					<input type = "submit" class = "btn primary" value = "Enviar" />
+				</form>
+			</div>
+		</div>
+{% endblock %}
